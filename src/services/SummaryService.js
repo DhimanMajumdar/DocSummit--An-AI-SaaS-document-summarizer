@@ -22,7 +22,7 @@ export async function generateSummary(
   const prompt = `You are an assistant that writes concise summaries.
 Title: ${title}
 Summarize the following document ${lengthInstruction}.
-Highlight key points and main ideas. Use bullet points if helpful and also make sure to highlight certain words with utmost importance, make those words bolder that others.
+Highlight key points and main ideas. Use bullet points if helpful.
 
 ${text}`;
 
