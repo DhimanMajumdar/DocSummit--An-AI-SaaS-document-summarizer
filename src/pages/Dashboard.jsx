@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import QnABox from "../components/QnABox";
 import UploadZone from "../components/UploadZone";
 import SummaryTabs from "../components/SummaryTabs";
 import SuggestionBox from "../components/SuggestionBox";
@@ -62,12 +63,16 @@ export default function Dashboard({ onBack }) {
         )}
 
         {documentText && !isProcessing && (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <div className="lg:col-span-2 bg-white rounded-2xl shadow-xl p-6">
+          <div className="mt-6 grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Left side (SummaryTabs) */}
+            <div className="lg:col-span-2">
               <SummaryTabs documentText={documentText} title={title} />
             </div>
-            <div className="bg-white rounded-2xl shadow-xl p-6">
+
+            {/* Right side (Suggestions + QnA stacked) */}
+            <div className="flex flex-col gap-8">
               <SuggestionBox documentText={documentText} />
+              <QnABox documentText={documentText} />
             </div>
           </div>
         )}
