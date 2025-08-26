@@ -48,6 +48,51 @@ PDF Processing: pdf.js
 OCR: Tesseract.js
 AI API: Google Gemini
 Build Tool: Vite
+   
+               Project Structure
+src/
+├── components/          # Reusable UI components
+│   ├── UploadZone.jsx  # File upload with drag & drop
+│   ├── SummaryTabs.jsx # Summary type selection
+│   ├── SuggestionBox.jsx # AI improvement suggestions
+│   └── Spinner.jsx     # Loading animation
+├── pages/              # Main pages
+│   ├── LandingPage.jsx # Welcome page
+│   └── Dashboard.jsx   # Main application
+├── lib/                # Processing utilities
+│   ├── PdfParser.js    # PDF text extraction
+│   └── OcrWorker.js    # Image OCR processing
+├── services/           # External API calls
+│   └── SummaryService.js # Gemini AI integration
+└── App.jsx             # Application root
+
+
+            📦 Installation
+-> Clone the repository
+
+bash
+git clone https://github.com/yourusername/docsummit.git
+cd docsummit
+Install dependencies
+
+bash
+npm install
+Set up environment variables
+Create a .env file in the root directory:
+
+env
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+
+Start development server
+
+bash
+npm run dev
+Open your browser
+Navigate to http://localhost:5173
+
+🔧 Configuration
+API Keys
+Get your free Google Gemini API key from Google AI Studio and add it to your .env file.
 
 
 🚀 Approach & Technical Implementation:-
