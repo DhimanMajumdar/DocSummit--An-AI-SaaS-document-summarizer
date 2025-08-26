@@ -2,7 +2,7 @@ import { useState } from "react";
 import LandingPage from "./pages/LandingPage";
 
 import Footer from "./components/Footer";
-import Dashboard from "./pages/dashboard";
+import Dashboard from "./pages/Dashboard";
 
 export default function App() {
   const [mode, setMode] = useState("landing");
