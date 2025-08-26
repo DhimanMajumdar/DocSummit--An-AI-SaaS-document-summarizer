@@ -28,7 +28,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Optional: Add a fun tagline */}
         <div className="mt-4 text-center">
           <p className="text-xs text-gray-400">
             Because reading is hard, but looking smart is easy! ✨
