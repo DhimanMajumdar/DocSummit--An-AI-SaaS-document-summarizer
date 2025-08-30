@@ -19,10 +19,10 @@ Perfect for **students, researchers, and professionals** who need to quickly und
 
 
 
-![Dashboard](.src/assets/picTwo.png)
+![Dashboard](./src/assets/picTwo.png)
 
 
-![QnA](.src/assets/picThree.png)
+![QnA](./src/assets/picThree.png)
 
 ---
 
@@ -61,8 +61,6 @@ Google's Gemini AI analyzes your content and generates:
 - Don’t just summarize—**interact with your document**.  
 - Ask **any question** about your uploaded file, and the AI responds with **context-aware answers**.  
 
-6️⃣ **You're Done!**  
-- Copy, download, or use your summaries instantly.  
 
 ---
 
