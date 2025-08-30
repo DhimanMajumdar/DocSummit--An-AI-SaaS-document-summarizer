@@ -1,6 +1,5 @@
 import { DocumentTextIcon } from "@heroicons/react/24/solid";
 
-// In Footer.jsx - alternative version
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   return (

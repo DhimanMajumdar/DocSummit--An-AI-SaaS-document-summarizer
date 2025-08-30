@@ -3,6 +3,27 @@
 DocSummit is an intelligent document assistant that transforms your lengthy documents into clear, concise summaries using advanced AI.  
 Perfect for **students, researchers, and professionals** who need to quickly understand complex materials.  
 
+                                    Live Link 
+
+-> https://docsummit.vercel.app/
+
+                                    GitHub Link
+
+-> https://github.com/DhimanMajumdar/DocSummit--An-AI-SaaS-document-summarizer
+
+
+                                    Images
+
+
+![Landing Page](./assets/picOne.png)             
+
+
+
+![Dashboard](./assets/picTwo.png)
+
+
+![QnA](./assets/picThree.png)
+
 ---
 
 ## ✨ Features  

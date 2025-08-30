@@ -46,7 +46,6 @@ export default function QnABox({ documentText }) {
         its content.
       </p>
 
-      {/* Question Input */}
       <div className="relative mb-6">
         <textarea
           value={question}
@@ -70,7 +69,6 @@ export default function QnABox({ documentText }) {
         </button>
       </div>
 
-      {/* Current Answer */}
       {answer && (
         <div className="mb-6">
           <h5 className="font-medium text-gray-900 mb-2">Answer:</h5>
@@ -80,7 +78,6 @@ export default function QnABox({ documentText }) {
         </div>
       )}
 
-      {/* Question History */}
       {history.length > 0 && (
         <div>
           <h5 className="font-medium text-gray-900 mb-3">Recent Questions</h5>

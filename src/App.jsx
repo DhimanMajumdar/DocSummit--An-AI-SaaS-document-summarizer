@@ -16,7 +16,7 @@ export default function App() {
           <Dashboard onBack={() => setMode("landing")} />
         )}
       </div>
-      <Footer /> {/* Footer sab pages ke neeche ayega */}
+      <Footer />
     </div>
   );
 }

@@ -90,7 +90,7 @@ ${text}`;
 }
 
 export async function askQuestionAboutDocument(documentText, question) {
-  const maxChars = 15000; // Shorter context for Q&A
+  const maxChars = 15000;
   if (documentText.length > maxChars)
     documentText = documentText.slice(0, maxChars) + "\n\n[TRUNCATED]";
 
