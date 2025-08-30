@@ -15,14 +15,14 @@ Perfect for **students, researchers, and professionals** who need to quickly und
                                     Images
 
 
-![Landing Page](./assets/picOne.png)             
+![Landing Page](./src/assets/picOne.png)             
 
 
 
-![Dashboard](./assets/picTwo.png)
+![Dashboard](.src/assets/picTwo.png)
 
 
-![QnA](./assets/picThree.png)
+![QnA](.src/assets/picThree.png)
 
 ---
 
