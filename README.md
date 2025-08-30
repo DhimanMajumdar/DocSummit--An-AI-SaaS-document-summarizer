@@ -38,6 +38,11 @@ Perfect for **students, researchers, and professionals** who need to quickly und
 
 ---
 
+## For running locally : 
+
+Create a `.env` file in the root with the following:
+VITE_GEMINI_API_KEY=your_api_key_here
+
 ## 🚀 How It Works  
 
 1️⃣ **Upload Your Document**  
