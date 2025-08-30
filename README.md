@@ -91,7 +91,6 @@ The goal was to **balance powerful AI capabilities with seamless UX**, ensuring 
 
 **Step 2: Intelligent AI Integration**  
 - Only **extracted text** is sent to **Google's Gemini API**.  
-- Implemented **smart caching** to avoid redundant API calls → faster & cost-efficient.  
 
 **Step 3: Responsive UI Architecture**  
 - Built with **React + Tailwind** for a modern, responsive design.  
